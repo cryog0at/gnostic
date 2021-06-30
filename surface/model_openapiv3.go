@@ -15,10 +15,11 @@
 package surface_v1
 
 import (
-	"github.com/googleapis/gnostic/compiler"
-	openapiv3 "github.com/googleapis/gnostic/openapiv3"
 	"log"
 	"strings"
+
+	"github.com/cryog0at/gnostic/compiler"
+	openapiv3 "github.com/cryog0at/gnostic/openapiv3"
 )
 
 type OpenAPI3Builder struct {
@@ -404,7 +405,7 @@ func (b *OpenAPI3Builder) buildFromSchema(name string, schema *openapiv3.Schema)
 
 // buildFromOneOfAnyOfAndAllOf adds appropriate fields to the 'schemaType' given a new 'schemaOrRef'.
 func (b *OpenAPI3Builder) buildFromOneOfAnyOfAndAllOf(schemaOrRef *openapiv3.SchemaOrReference, schemaType *Type) {
-	// Related: https://github.com/googleapis/gnostic-grpc/issues/22
+	// Related: https://github.com/cryog0at/gnostic-grpc/issues/22
 	if schema := schemaOrRef.GetSchema(); schema != nil {
 		// Build a temporary type that has the required fields; add the fields to the current schema; remove the
 		// temporary type

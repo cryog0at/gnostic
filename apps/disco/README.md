@@ -6,8 +6,8 @@ descriptions to OpenAPI.
 
 Installation:
 
-        go get github.com/googleapis/gnostic
-        go install github.com/googleapis/gnostic/apps/disco
+        go get github.com/cryog0at/gnostic
+        go install github.com/cryog0at/gnostic/apps/disco
 
 Usage:
 

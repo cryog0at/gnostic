@@ -49,7 +49,7 @@ and later.
 
 1.  Get this package by downloading it with `git clone`.
 
-        git clone https://github.com/googleapis/gnostic
+        git clone https://github.com/cryog0at/gnostic
         cd gnostic
 
 2.  Verify that you have a local installation of `protoc`. You can get protoc
@@ -91,8 +91,8 @@ and later.
     [plugin.proto](https://github.com/protocolbuffers/protobuf/blob/master/src/google/protobuf/compiler/plugin.proto)
     and is described in [plugins/plugin.proto](plugins/plugin.proto). Several
     plugins are implemented in the `plugins` directory. Others, like
-    [gnostic-grpc](https://github.com/googleapis/gnostic-grpc) and
-    [gnostic-go-generator](https://github.com/googleapis/gnostic-go-generator),
+    [gnostic-grpc](https://github.com/cryog0at/gnostic-grpc) and
+    [gnostic-go-generator](https://github.com/cryog0at/gnostic-go-generator),
     are published in their own repositories. One such plugin is
     [gnostic-vocabulary](plugins/gnostic-vocabulary), which produces a summary
     of the word usage in an APIs interfaces. You can run `gnostic-vocabulary`

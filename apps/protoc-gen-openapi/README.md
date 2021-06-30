@@ -6,8 +6,8 @@ Protocol Buffer service.
 
 Installation:
 
-        go get github.com/googleapis/gnostic
-        go install github.com/googleapis/gnostic/apps/protoc-gen-openapi
+        go get github.com/cryog0at/gnostic
+        go install github.com/cryog0at/gnostic/apps/protoc-gen-openapi
   
   
 Usage:
