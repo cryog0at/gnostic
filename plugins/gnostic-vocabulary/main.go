@@ -19,13 +19,13 @@ import (
 	"os"
 	"path/filepath"
 
+	discovery_v1 "github.com/cryog0at/gnostic/discovery"
+	metrics "github.com/cryog0at/gnostic/metrics"
+	vocabulary "github.com/cryog0at/gnostic/metrics/vocabulary"
+	openapiv2 "github.com/cryog0at/gnostic/openapiv2"
+	openapiv3 "github.com/cryog0at/gnostic/openapiv3"
+	plugins "github.com/cryog0at/gnostic/plugins"
 	"github.com/golang/protobuf/proto"
-	discovery_v1 "github.com/googleapis/gnostic/discovery"
-	metrics "github.com/googleapis/gnostic/metrics"
-	vocabulary "github.com/googleapis/gnostic/metrics/vocabulary"
-	openapiv2 "github.com/googleapis/gnostic/openapiv2"
-	openapiv3 "github.com/googleapis/gnostic/openapiv3"
-	plugins "github.com/googleapis/gnostic/plugins"
 )
 
 // Record an error, then serialize and return a response.

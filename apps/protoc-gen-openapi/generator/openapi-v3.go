@@ -22,14 +22,14 @@ import (
 	"sort"
 	"strings"
 
-	v3 "github.com/googleapis/gnostic/openapiv3"
+	v3 "github.com/cryog0at/gnostic/openapiv3"
 	"google.golang.org/genproto/googleapis/api/annotations"
 	"google.golang.org/protobuf/compiler/protogen"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"
 )
 
-const infoURL = "https://github.com/googleapis/gnostic/tree/master/apps/protoc-gen-openapi"
+const infoURL = "https://github.com/cryog0at/gnostic/tree/master/apps/protoc-gen-openapi"
 
 // OpenAPIv3Generator holds internal state needed to generate an OpenAPIv3 document for a transcoded Protocol Buffer service.
 type OpenAPIv3Generator struct {

@@ -17,8 +17,8 @@ package vocabulary
 import (
 	"sort"
 
-	metrics "github.com/googleapis/gnostic/metrics"
-	openapi_v3 "github.com/googleapis/gnostic/openapiv3"
+	metrics "github.com/cryog0at/gnostic/metrics"
+	openapi_v3 "github.com/cryog0at/gnostic/openapiv3"
 )
 
 func fillProtoStructures(m map[string]int) []*metrics.WordCount {

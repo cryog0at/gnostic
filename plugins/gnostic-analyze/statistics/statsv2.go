@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	openapi "github.com/googleapis/gnostic/openapiv2"
+	openapi "github.com/cryog0at/gnostic/openapiv2"
 )
 
 // DocumentStatistics contains information collected about an API description.

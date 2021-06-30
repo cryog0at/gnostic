@@ -23,10 +23,10 @@ import (
 	"log"
 	"os"
 
+	"github.com/cryog0at/gnostic/printer"
 	"github.com/golang/protobuf/proto"
-	"github.com/googleapis/gnostic/printer"
 
-	pb "github.com/googleapis/gnostic/openapiv2"
+	pb "github.com/cryog0at/gnostic/openapiv2"
 )
 
 func readDocumentFromFileWithName(filename string) (*pb.Document, error) {

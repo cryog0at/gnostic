@@ -29,7 +29,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/googleapis/gnostic/jsonschema"
+	"github.com/cryog0at/gnostic/jsonschema"
 )
 
 // convert the first character of a string to lower case
@@ -842,11 +842,11 @@ func main() {
 	if contactObject != nil {
 		emailProperty := contactObject.PropertyWithName("email")
 		if emailProperty != nil {
-			emailProperty.Format = stringptr("email");
+			emailProperty.Format = stringptr("email")
 		}
 		urlProperty := contactObject.PropertyWithName("url")
 		if urlProperty != nil {
-			urlProperty.Format = stringptr("uri");
+			urlProperty.Format = stringptr("uri")
 		}
 	}
 

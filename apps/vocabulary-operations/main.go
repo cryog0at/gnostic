@@ -22,9 +22,9 @@ import (
 	"os"
 	"strings"
 
+	metrics "github.com/cryog0at/gnostic/metrics"
+	vocabulary "github.com/cryog0at/gnostic/metrics/vocabulary"
 	"github.com/golang/protobuf/proto"
-	metrics "github.com/googleapis/gnostic/metrics"
-	vocabulary "github.com/googleapis/gnostic/metrics/vocabulary"
 )
 
 // openVocabularyFiles uses standard input to create a slice of

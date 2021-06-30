@@ -21,10 +21,10 @@ import (
 	"os"
 	"strings"
 
+	"github.com/cryog0at/gnostic/conversions"
+	discovery "github.com/cryog0at/gnostic/discovery"
 	"github.com/docopt/docopt-go"
 	"github.com/golang/protobuf/proto"
-	"github.com/googleapis/gnostic/conversions"
-	discovery "github.com/googleapis/gnostic/discovery"
 )
 
 func main() {

@@ -19,11 +19,11 @@ import (
 	"encoding/json"
 	"path/filepath"
 
+	metrics "github.com/cryog0at/gnostic/metrics"
+	openapiv2 "github.com/cryog0at/gnostic/openapiv2"
+	openapiv3 "github.com/cryog0at/gnostic/openapiv3"
+	plugins "github.com/cryog0at/gnostic/plugins"
 	"github.com/golang/protobuf/proto"
-	metrics "github.com/googleapis/gnostic/metrics"
-	openapiv2 "github.com/googleapis/gnostic/openapiv2"
-	openapiv3 "github.com/googleapis/gnostic/openapiv3"
-	plugins "github.com/googleapis/gnostic/plugins"
 )
 
 // This is the main function for the plugin.

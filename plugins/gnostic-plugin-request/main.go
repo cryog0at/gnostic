@@ -19,12 +19,12 @@ package main
 import (
 	"log"
 
+	openapiv2 "github.com/cryog0at/gnostic/openapiv2"
+	openapiv3 "github.com/cryog0at/gnostic/openapiv3"
+	plugins "github.com/cryog0at/gnostic/plugins"
+	surface "github.com/cryog0at/gnostic/surface"
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/golang/protobuf/proto"
-	openapiv2 "github.com/googleapis/gnostic/openapiv2"
-	openapiv3 "github.com/googleapis/gnostic/openapiv3"
-	plugins "github.com/googleapis/gnostic/plugins"
-	surface "github.com/googleapis/gnostic/surface"
 )
 
 func main() {

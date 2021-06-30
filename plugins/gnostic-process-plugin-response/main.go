@@ -23,8 +23,8 @@ import (
 	"log"
 	"os"
 
+	plugins "github.com/cryog0at/gnostic/plugins"
 	"github.com/golang/protobuf/proto"
-	plugins "github.com/googleapis/gnostic/plugins"
 )
 
 func exitIfError(err error) {

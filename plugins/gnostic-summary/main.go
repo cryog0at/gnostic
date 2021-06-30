@@ -20,11 +20,11 @@ import (
 	"log"
 	"path/filepath"
 
+	openapiv2 "github.com/cryog0at/gnostic/openapiv2"
+	openapiv3 "github.com/cryog0at/gnostic/openapiv3"
+	plugins "github.com/cryog0at/gnostic/plugins"
+	"github.com/cryog0at/gnostic/printer"
 	"github.com/golang/protobuf/proto"
-	openapiv2 "github.com/googleapis/gnostic/openapiv2"
-	openapiv3 "github.com/googleapis/gnostic/openapiv3"
-	plugins "github.com/googleapis/gnostic/plugins"
-	"github.com/googleapis/gnostic/printer"
 )
 
 // generate a simple report of an OpenAPI document's contents

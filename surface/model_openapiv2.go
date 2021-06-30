@@ -15,10 +15,11 @@
 package surface_v1
 
 import (
-	openapiv2 "github.com/googleapis/gnostic/openapiv2"
-	"github.com/googleapis/gnostic/compiler"
 	"log"
 	"strconv"
+
+	"github.com/cryog0at/gnostic/compiler"
+	openapiv2 "github.com/cryog0at/gnostic/openapiv2"
 )
 
 type OpenAPI2Builder struct {

@@ -20,9 +20,9 @@ import (
 	"os/exec"
 	"strings"
 
+	extensions "github.com/cryog0at/gnostic/extensions"
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes/any"
-	extensions "github.com/googleapis/gnostic/extensions"
 	yaml "gopkg.in/yaml.v3"
 )
 

@@ -28,14 +28,14 @@ import (
 	"strings"
 	"time"
 
+	"github.com/cryog0at/gnostic/compiler"
+	discovery_v1 "github.com/cryog0at/gnostic/discovery"
+	"github.com/cryog0at/gnostic/jsonwriter"
+	openapi_v2 "github.com/cryog0at/gnostic/openapiv2"
+	openapi_v3 "github.com/cryog0at/gnostic/openapiv3"
+	plugins "github.com/cryog0at/gnostic/plugins"
+	surface "github.com/cryog0at/gnostic/surface"
 	"github.com/golang/protobuf/proto"
-	"github.com/googleapis/gnostic/compiler"
-	discovery_v1 "github.com/googleapis/gnostic/discovery"
-	"github.com/googleapis/gnostic/jsonwriter"
-	openapi_v2 "github.com/googleapis/gnostic/openapiv2"
-	openapi_v3 "github.com/googleapis/gnostic/openapiv3"
-	plugins "github.com/googleapis/gnostic/plugins"
-	surface "github.com/googleapis/gnostic/surface"
 	"gopkg.in/yaml.v3"
 )
 
