@@ -57,7 +57,7 @@ func main() {
 			err = proto.Unmarshal(model.Value, documentv2)
 			if err == nil {
 				// Analyze the API document.
-				vocab = vocabulary.NewVocabularyFromOpenAPIv2(documentv2)
+				vocab = vocabulary.NewVocabularyFromopenapiv2(documentv2)
 			}
 		case "openapi.v3.Document":
 			documentv3 := &openapiv3.Document{}

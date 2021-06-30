@@ -18,8 +18,8 @@ import (
 	"log"
 	"net/url"
 
-	openapi2 "github.com/googleapis/gnostic/openapiv2"
 	discovery "github.com/googleapis/gnostic/discovery"
+	openapi2 "github.com/googleapis/gnostic/openapiv2"
 )
 
 func addOpenAPI2SchemaForSchema(d *openapi2.Document, name string, schema *discovery.Schema) {
@@ -251,8 +251,8 @@ func removeTrailingSlash(path string) string {
 	return path
 }
 
-// OpenAPIv2 returns an OpenAPI v2 representation of this Discovery document
-func OpenAPIv2(api *discovery.Document) (*openapi2.Document, error) {
+// openapiv2 returns an OpenAPI v2 representation of this Discovery document
+func openapiv2(api *discovery.Document) (*openapi2.Document, error) {
 	d := &openapi2.Document{}
 	d.Swagger = "2.0"
 	d.Info = &openapi2.Info{

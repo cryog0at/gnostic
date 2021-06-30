@@ -191,7 +191,7 @@ func handleExportArgumentsForBytes(arguments map[string]interface{}, bytes []byt
 	}
 	if arguments["--openapi2"].(bool) {
 		// Generate the OpenAPI 2 equivalent.
-		openAPIDocument, err := conversions.OpenAPIv2(document)
+		openAPIDocument, err := conversions.openapiv2(document)
 		if err != nil {
 			return handled, err
 		}

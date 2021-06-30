@@ -3,7 +3,7 @@ GNOSTIC = $(GOPATH)/src/github.com/googleapis/gnostic
 
 plugin:
 	node_modules/.bin/pbjs -t json \
-		$(GNOSTIC)/OpenAPIv2/OpenAPIv2.proto \
+		$(GNOSTIC)/openapiv2/openapiv2.proto \
 		$(GNOSTIC)/OpenAPIv3/OpenAPIv3.proto \
 		$(GNOSTIC)/discovery/discovery.proto \
 		$(GNOSTIC)/surface/surface.proto \

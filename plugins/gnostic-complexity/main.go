@@ -39,7 +39,7 @@ func main() {
 			documentv2 := &openapiv2.Document{}
 			err = proto.Unmarshal(model.Value, documentv2)
 			if err == nil {
-				complexity = analyzeOpenAPIv2Document(documentv2)
+				complexity = analyzeopenapiv2Document(documentv2)
 			}
 		case "openapi.v3.Document":
 			documentv3 := &openapiv3.Document{}
@@ -74,7 +74,7 @@ func newComplexity() *metrics.Complexity {
 	return &metrics.Complexity{}
 }
 
-func analyzeOpenAPIv2Document(document *openapiv2.Document) *metrics.Complexity {
+func analyzeopenapiv2Document(document *openapiv2.Document) *metrics.Complexity {
 	summary := newComplexity()
 
 	if document.Definitions != nil && document.Definitions.AdditionalProperties != nil {

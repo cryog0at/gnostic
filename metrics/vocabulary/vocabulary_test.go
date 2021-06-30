@@ -232,7 +232,7 @@ func TestSampleVocabularyV2(t *testing.T) {
 		t.Logf("Parse failed: %+v", err)
 		t.FailNow()
 	}
-	v1 := NewVocabularyFromOpenAPIv2(document)
+	v1 := NewVocabularyFromopenapiv2(document)
 	// uncomment the following line to write reference data
 	//err = ioutil.WriteFile(referenceFile, []byte(protojson.Format(v1)), 0644)
 	referenceData, err := ioutil.ReadFile(referenceFile)

@@ -59,7 +59,7 @@ func (vocab *Vocabulary) processSchemaV2(schema *openapi_v2.Schema) {
 	}
 }
 
-func NewVocabularyFromOpenAPIv2(document *openapi_v2.Document) *metrics.Vocabulary {
+func NewVocabularyFromopenapiv2(document *openapi_v2.Document) *metrics.Vocabulary {
 	var vocab Vocabulary
 	vocab.schemas = make(map[string]int)
 	vocab.operationID = make(map[string]int)
