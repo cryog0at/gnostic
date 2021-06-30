@@ -78,7 +78,7 @@ and later.
     which contains a textual representation of the Protocol Buffer description.
     This is mainly for use in testing and debugging.
 
-            gnostic --text-out=petstore.text https://raw.githubusercontent.com/googleapis/gnostic/master/examples/v2.0/json/petstore.json
+            gnostic --text-out=petstore.text https://raw.githubusercontent.com/cryog0at/gnostic/master/examples/v2.0/json/petstore.json
 
 7.  For a sample application, see apps/report. This reads a binary Protocol
     Buffer encoding created by **gnostic**.
